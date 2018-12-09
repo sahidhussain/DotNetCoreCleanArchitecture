@@ -18,13 +18,9 @@ E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netst
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.dll
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\DotnetCore.Core.Entity.dll
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\DotnetCore.Core.Utility.dll
-E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll
-E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\DotnetCore.Core.Entity.pdb
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.pdb
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\DotnetCore.Core.Utility.pdb
-E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\Microsoft.Extensions.Identity.Stores.xml
-E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\obj\Debug\netstandard2.0\DotnetCore.Core.csprojAssemblyReference.cache
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\obj\Debug\netstandard2.0\DotnetCore.Core.csproj.CoreCompileInputs.cache
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\obj\Debug\netstandard2.0\DotnetCore.Core.AssemblyInfoInputs.cache
