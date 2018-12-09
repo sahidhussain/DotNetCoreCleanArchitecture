@@ -1,0 +1,9 @@
+E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Core.Entity\bin\Debug\netstandard2.0\DotnetCore.Core.Entity.deps.json
+E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Core.Entity\bin\Debug\netstandard2.0\DotnetCore.Core.Entity.dll
+E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Core.Entity\bin\Debug\netstandard2.0\DotnetCore.Core.Entity.pdb
+E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Core.Entity\obj\Debug\netstandard2.0\DotnetCore.Core.Entity.csprojAssemblyReference.cache
+E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Core.Entity\obj\Debug\netstandard2.0\DotnetCore.Core.Entity.csproj.CoreCompileInputs.cache
+E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Core.Entity\obj\Debug\netstandard2.0\DotnetCore.Core.Entity.AssemblyInfoInputs.cache
+E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Core.Entity\obj\Debug\netstandard2.0\DotnetCore.Core.Entity.AssemblyInfo.cs
+E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Core.Entity\obj\Debug\netstandard2.0\DotnetCore.Core.Entity.dll
+E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Core.Entity\obj\Debug\netstandard2.0\DotnetCore.Core.Entity.pdb

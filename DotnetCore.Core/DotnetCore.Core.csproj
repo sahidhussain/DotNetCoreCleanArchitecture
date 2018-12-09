@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetCore.Core.Entity\DotnetCore.Core.Entity.csproj" />
+    <ProjectReference Include="..\DotnetCore.DTO\DotnetCore.Core.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
