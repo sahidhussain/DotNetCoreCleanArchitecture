@@ -6,31 +6,13 @@ using System.Collections.Generic;
 
 namespace DotnetCore.Infrastructure.Data
 {
-    public class InstitutionRepository : IInstitutionRepository
+    public class InstitutionRepository : EFRepository<Institution>, IInstitutionRepository
     {
-        
-        public Institution Create(Institution entity)
-        {
-            try
-            {
-                return Create(entity);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
 
-        public IEnumerable<Institution> ListAll()
+        public InstitutionRepository(ApplicationDbContext dbContext)
+            :base(dbContext)
         {
-            try
-            {
-                return ListAll();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+
         }
     }
 }

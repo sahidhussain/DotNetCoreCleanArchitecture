@@ -6,3 +6,11 @@ E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Utility\obj\Debug\netstan
 E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.AssemblyInfo.cs
 E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.dll
 E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.pdb
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\bin\Debug\netstandard2.0\DotnetCore.Core.Utility.deps.json
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\bin\Debug\netstandard2.0\DotnetCore.Core.Utility.dll
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\bin\Debug\netstandard2.0\DotnetCore.Core.Utility.pdb
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.csproj.CoreCompileInputs.cache
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.AssemblyInfoInputs.cache
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.AssemblyInfo.cs
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.dll
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.pdb

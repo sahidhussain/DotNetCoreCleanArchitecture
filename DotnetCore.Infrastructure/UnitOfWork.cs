@@ -11,6 +11,7 @@ namespace DotnetCore.Infrastructure
     {
         #region PRIVATE MEMBERS
         protected readonly ApplicationDbContext _dbContext;
+        private IInstitutionRepository _IUOWInstitutionRepository;
         #endregion
 
         #region UNIT OF WORK: Constructor
@@ -19,15 +20,6 @@ namespace DotnetCore.Infrastructure
             _dbContext = dbContext;
         }
         #endregion
-
-        private readonly IInstitutionRepository _IUOWInstitutionRepository;
-        public IInstitutionRepository IUOWInstitutionRepository
-        {
-            //get
-            //{
-            //    _IUOWInstitutionRepository = new InstitutionRepository();
-            //}
-        }
 
         #region COMMIT
         public int Commit()
@@ -42,5 +34,18 @@ namespace DotnetCore.Infrastructure
             _dbContext.Dispose();
         }
         #endregion
+
+        public IInstitutionRepository IUOWInstitutionRepository
+        {
+            get
+            {
+                if (this._IUOWInstitutionRepository == null)
+                {
+                    _IUOWInstitutionRepository = new InstitutionRepository(_dbContext);
+                }
+                return _IUOWInstitutionRepository;
+            }
+        }
+
     }
 }

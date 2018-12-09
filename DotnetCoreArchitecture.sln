@@ -5,21 +5,19 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4FB4083B-F7D0-441C-BAED-7ABA724502A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.Core", "DotnetCore.Core\DotnetCore.Core.csproj", "{7212A09C-4238-48F1-8AF1-9BE7AABC8137}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCore.Core", "DotnetCore.Core\DotnetCore.Core.csproj", "{7212A09C-4238-48F1-8AF1-9BE7AABC8137}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DD8A005D-A899-44CF-A6CF-B4D3C4D48310}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{BAC77FA7-80A0-41CB-A31F-E6FFB881ED71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCore.Infrastructure", "DotnetCore.Infrastructure\DotnetCore.Infrastructure.csproj", "{230AFA18-AEBB-476D-AF00-33C548D5D639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.Application", "DotnetCore.Application\DotnetCore.Application.csproj", "{037331B2-3E92-48D1-8F77-0056866DC47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCore.Core.Entity", "DotnetCore.Core.Entity\DotnetCore.Core.Entity.csproj", "{A8E64D24-6B58-4B5C-8E25-5F4209079591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.Infrastructure", "DotnetCore.Infrastructure\DotnetCore.Infrastructure.csproj", "{230AFA18-AEBB-476D-AF00-33C548D5D639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCore.Core.DTO", "DotnetCore.DTO\DotnetCore.Core.DTO.csproj", "{DE40344A-A51A-498D-A038-5848B5DBF019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.Core.Entity", "DotnetCore.Core.Entity\DotnetCore.Core.Entity.csproj", "{A8E64D24-6B58-4B5C-8E25-5F4209079591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCore.Core.Utility", "DotnetCore.Utility\DotnetCore.Core.Utility.csproj", "{591A4336-B28B-4607-B3A5-503DEC9961B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.Core.DTO", "DotnetCore.DTO\DotnetCore.Core.DTO.csproj", "{DE40344A-A51A-498D-A038-5848B5DBF019}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.Core.Utility", "DotnetCore.Utility\DotnetCore.Core.Utility.csproj", "{591A4336-B28B-4607-B3A5-503DEC9961B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCore.WebAPI", "DotnetCore.WebAPI\DotnetCore.WebAPI.csproj", "{51E6627F-382D-4214-A606-A2CC5EE7E672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{7212A09C-4238-48F1-8AF1-9BE7AABC8137}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7212A09C-4238-48F1-8AF1-9BE7AABC8137}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7212A09C-4238-48F1-8AF1-9BE7AABC8137}.Release|Any CPU.Build.0 = Release|Any CPU
-		{037331B2-3E92-48D1-8F77-0056866DC47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{037331B2-3E92-48D1-8F77-0056866DC47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{037331B2-3E92-48D1-8F77-0056866DC47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{037331B2-3E92-48D1-8F77-0056866DC47A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{230AFA18-AEBB-476D-AF00-33C548D5D639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{230AFA18-AEBB-476D-AF00-33C548D5D639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{230AFA18-AEBB-476D-AF00-33C548D5D639}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,13 +45,16 @@ Global
 		{591A4336-B28B-4607-B3A5-503DEC9961B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{591A4336-B28B-4607-B3A5-503DEC9961B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{591A4336-B28B-4607-B3A5-503DEC9961B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E6627F-382D-4214-A606-A2CC5EE7E672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E6627F-382D-4214-A606-A2CC5EE7E672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E6627F-382D-4214-A606-A2CC5EE7E672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E6627F-382D-4214-A606-A2CC5EE7E672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7212A09C-4238-48F1-8AF1-9BE7AABC8137} = {4FB4083B-F7D0-441C-BAED-7ABA724502A8}
-		{037331B2-3E92-48D1-8F77-0056866DC47A} = {BAC77FA7-80A0-41CB-A31F-E6FFB881ED71}
 		{230AFA18-AEBB-476D-AF00-33C548D5D639} = {DD8A005D-A899-44CF-A6CF-B4D3C4D48310}
 		{A8E64D24-6B58-4B5C-8E25-5F4209079591} = {4FB4083B-F7D0-441C-BAED-7ABA724502A8}
 		{DE40344A-A51A-498D-A038-5848B5DBF019} = {4FB4083B-F7D0-441C-BAED-7ABA724502A8}

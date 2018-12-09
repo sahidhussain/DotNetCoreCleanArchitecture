@@ -1,7 +1,9 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DotnetCore.Core.Entity
 {
+    [Table("Institution")]
     public class Institution : BaseEntity
     {
         public Guid InstitutionId { get; set; }

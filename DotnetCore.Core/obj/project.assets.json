@@ -39,11 +39,24 @@
       "DotnetCore.Core.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DotnetCore.Core.Utility": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DotnetCore.Core.Entity.dll": {}
         },
         "runtime": {
           "bin/placeholder/DotnetCore.Core.Entity.dll": {}
+        }
+      },
+      "DotnetCore.Core.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DotnetCore.Core.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DotnetCore.Core.Utility.dll": {}
         }
       }
     }
@@ -201,6 +214,11 @@
       "type": "project",
       "path": "../DotnetCore.Core.Entity/DotnetCore.Core.Entity.csproj",
       "msbuildProject": "../DotnetCore.Core.Entity/DotnetCore.Core.Entity.csproj"
+    },
+    "DotnetCore.Core.Utility/1.0.0": {
+      "type": "project",
+      "path": "../DotnetCore.Utility/DotnetCore.Core.Utility.csproj",
+      "msbuildProject": "../DotnetCore.Utility/DotnetCore.Core.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -217,11 +235,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.Core\\DotnetCore.Core.csproj",
+      "projectUniqueName": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Core\\DotnetCore.Core.csproj",
       "projectName": "DotnetCore.Core",
-      "projectPath": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.Core\\DotnetCore.Core.csproj",
+      "projectPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Core\\DotnetCore.Core.csproj",
       "packagesPath": "C:\\Users\\Sahidul Hussain\\.nuget\\packages\\",
-      "outputPath": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.Core\\obj\\",
+      "outputPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -240,11 +258,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.Core.Entity\\DotnetCore.Core.Entity.csproj": {
-              "projectPath": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.Core.Entity\\DotnetCore.Core.Entity.csproj"
+            "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Core.Entity\\DotnetCore.Core.Entity.csproj": {
+              "projectPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Core.Entity\\DotnetCore.Core.Entity.csproj"
             },
-            "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj": {
-              "projectPath": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj"
+            "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj": {
+              "projectPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj"
             }
           }
         }

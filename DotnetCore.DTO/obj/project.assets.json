@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj",
+      "projectUniqueName": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj",
       "projectName": "DotnetCore.Core.DTO",
-      "projectPath": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj",
+      "projectPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj",
       "packagesPath": "C:\\Users\\Sahidul Hussain\\.nuget\\packages\\",
-      "outputPath": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.DTO\\obj\\",
+      "outputPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

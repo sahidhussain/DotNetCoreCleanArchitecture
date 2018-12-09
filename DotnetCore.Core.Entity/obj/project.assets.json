@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "DotnetCore.Core.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DotnetCore.Core.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DotnetCore.Core.Utility.dll": {}
+        }
       }
     }
   },
@@ -171,10 +181,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "DotnetCore.Core.Utility/1.0.0": {
+      "type": "project",
+      "path": "../DotnetCore.Utility/DotnetCore.Core.Utility.csproj",
+      "msbuildProject": "../DotnetCore.Utility/DotnetCore.Core.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "DotnetCore.Core.Utility >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -185,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.Core.Entity\\DotnetCore.Core.Entity.csproj",
+      "projectUniqueName": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Core.Entity\\DotnetCore.Core.Entity.csproj",
       "projectName": "DotnetCore.Core.Entity",
-      "projectPath": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.Core.Entity\\DotnetCore.Core.Entity.csproj",
+      "projectPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Core.Entity\\DotnetCore.Core.Entity.csproj",
       "packagesPath": "C:\\Users\\Sahidul Hussain\\.nuget\\packages\\",
-      "outputPath": "E:\\ARCHITECTURE\\2018\\DotnetCoreArchitecture\\DotnetCore.Core.Entity\\obj\\",
+      "outputPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Core.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -207,7 +223,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Utility\\DotnetCore.Core.Utility.csproj": {
+              "projectPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.Utility\\DotnetCore.Core.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

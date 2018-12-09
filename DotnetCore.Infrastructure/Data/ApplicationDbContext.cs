@@ -9,5 +9,8 @@ namespace DotnetCore.Infrastructure.Data
         {
         }
         public DbSet<Institution> Institutions { get; set; }
+
+
+        // modelBuilder.Properties<string>().Configure(c => c.IsUnicode(false));
     }
 }
