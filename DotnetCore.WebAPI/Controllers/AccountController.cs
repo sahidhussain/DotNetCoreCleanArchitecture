@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using DotnetCore.Core.ApplicationServices.ServiceUser;
 using DotnetCore.Core.DTO.DtoUser;
+using DotnetCore.WebAPI.Helper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -38,7 +39,31 @@ namespace DotnetCore.WebAPI.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
         #endregion
+
+        #region Create Role
+        [HttpPost]
+        public async Task<ActionResult> CreateRole(string roleName)
+        {
+            try
+            {
+                if (!string.IsNullOrWhiteSpace(roleName))
+                {
+                    var result = await _IUser.AddRoles(roleName);
+                    return Ok(result);
+                }
+                else
+                {
+                    return new BadRequestObjectResult(Errors.AddErrorToModelState("BadInput", "Input is not valid", ModelState));
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        #endregion
+
     }
 }

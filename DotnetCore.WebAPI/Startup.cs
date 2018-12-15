@@ -35,18 +35,9 @@ namespace DotnetCore.WebAPI
             services.AddDbContext<ApplicationIdentityDbContext>(c =>
                c.UseSqlServer(Configuration.GetConnectionString("default")));
 
-            var builder = services.AddIdentityCore<AppUsers>(o =>
-            {
-                // configure identity options
-                o.Password.RequireDigit = false;
-                o.Password.RequireLowercase = false;
-                o.Password.RequireUppercase = false;
-                o.Password.RequireNonAlphanumeric = false;
-                o.Password.RequiredLength = 6;
-            });
-            builder = new IdentityBuilder(builder.UserType, typeof(AppRole), builder.Services);
-            builder.AddEntityFrameworkStores<ApplicationIdentityDbContext>().AddDefaultTokenProviders();
-
+            services.AddIdentity<AppUsers, AppRole>()
+                            .AddEntityFrameworkStores<ApplicationIdentityDbContext>()
+                            .AddDefaultTokenProviders();
             #endregion
 
 

@@ -10,6 +10,6 @@ namespace DotnetCore.Core.DTO.DtoUser
         public string Email { get; set; }
         public string Password { get; set; }
         public string ConfirmPassword { get; set; }
-        public int UserType { get; set; } = Constants.USERTYPESTUDENT;
+        public int UserType { get; set; }
     }
 }

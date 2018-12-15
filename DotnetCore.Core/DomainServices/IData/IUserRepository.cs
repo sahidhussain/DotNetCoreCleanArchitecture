@@ -11,7 +11,13 @@ namespace DotnetCore.Core.DomainServices.IData
     public interface IUserRepository
     {
         #region Add User
-        Task<IdentityResult> AddUser(AppUsers dto, string userPassword);
+        Task<IdentityResult> AddUser(AppUsers dto, string userPassword, string role = "");
         #endregion
+
+        #region Add Role
+        Task<IdentityResult> AddRoles(AppRole roleName);
+        #endregion
+
+
     }
 }

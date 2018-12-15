@@ -13,5 +13,9 @@ namespace DotnetCore.Core.ApplicationServices.ServiceUser
         Task<IdentityResult> AddUser(CreateUserDto dto);
         #endregion
 
+        #region Add Role
+        Task<IdentityResult> AddRoles(string roleName);
+        #endregion
+
     }
 }
