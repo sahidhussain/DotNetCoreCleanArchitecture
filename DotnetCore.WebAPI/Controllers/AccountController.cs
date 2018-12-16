@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DotnetCore.WebAPI.Controllers
 {
-    [Route("api/[controller]/[action]/{id?}")]
+    [Route("api/[controller]/[action]/{id?}")] 
     [ApiController]
     public class AccountController : ControllerBase
     {
