@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotnetCore.Utility\DotnetCore.Core.Utility.csproj" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.1.1" />
   </ItemGroup>
 
 </Project>

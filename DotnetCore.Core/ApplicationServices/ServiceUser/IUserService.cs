@@ -1,4 +1,5 @@
-﻿using DotnetCore.Core.DTO.DtoUser;
+﻿using DotnetCore.Core.DTO.ApiResponse;
+using DotnetCore.Core.DTO.DtoUser;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,10 @@ namespace DotnetCore.Core.ApplicationServices.ServiceUser
 
         #region Add Role
         Task<IdentityResult> AddRoles(string roleName);
+        #endregion
+
+        #region Add Role
+        Token Authenticate(SignInDto dto);
         #endregion
 
     }

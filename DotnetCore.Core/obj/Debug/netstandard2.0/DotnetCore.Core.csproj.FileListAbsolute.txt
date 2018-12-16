@@ -28,3 +28,7 @@ E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\obj\Debug\netst
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\obj\Debug\netstandard2.0\DotnetCore.Core.csproj.CopyComplete
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\obj\Debug\netstandard2.0\DotnetCore.Core.dll
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\obj\Debug\netstandard2.0\DotnetCore.Core.pdb
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.dll
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.xml
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Core\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.xml

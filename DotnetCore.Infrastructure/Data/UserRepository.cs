@@ -3,6 +3,7 @@ using DotnetCore.Core.Entity;
 using DotnetCore.Core.Utility;
 using Microsoft.AspNetCore.Identity;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace DotnetCore.Infrastructure.Data
@@ -84,6 +85,48 @@ namespace DotnetCore.Infrastructure.Data
         }
         #endregion
 
+        #region REPOSITORY: AUTHENTICATION
+        public async Task<SignInResult> Authenticate(AppUsers users, string password)
+        {
+            try
+            {
+                var result = await _signInManager.PasswordSignInAsync(users.UserName, password, isPersistent: true, lockoutOnFailure:false);
+                return result;
+            }
+            catch(Exception)
+            {
+                throw;
+            }
+        }
+        #endregion
+
+        #region REPOSITORY: GET USER BY EMAIL
+        public async Task<AppUsers> GetUserByEmail(string email)
+        {
+            try
+            {
+                return await _userManager.FindByEmailAsync(email);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        #endregion
+
+        #region REPOSITORY: GET USER IN ROLE
+        public async Task<IList<string>> GetUserInRole(AppUsers users)
+        {
+            try
+            {
+                return await _userManager.GetRolesAsync(users);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        #endregion
 
     }
 }

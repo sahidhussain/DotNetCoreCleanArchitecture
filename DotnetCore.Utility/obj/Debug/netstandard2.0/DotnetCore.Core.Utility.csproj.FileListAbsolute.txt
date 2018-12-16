@@ -14,3 +14,11 @@ E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\ne
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.AssemblyInfo.cs
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.dll
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.pdb
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.csprojAssemblyReference.cache
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.dll
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.xml
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.xml
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\obj\Debug\netstandard2.0\DotnetCore.Core.Utility.csproj.CopyComplete
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.dll
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Utility\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.pdb
