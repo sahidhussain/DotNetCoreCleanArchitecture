@@ -41,35 +41,6 @@ namespace DotnetCore.WebAPI.Controllers
         }
         #endregion
 
-        #region Sign In User
-        [HttpPost]
-        public ActionResult SignIn(SignInDto model)
-        {
-            try
-            {
-                if (ModelState.IsValid)
-                {
-                    var result =  _IUser.Authenticate(model);
-                    if(!string.IsNullOrWhiteSpace(result.UserToken))
-                    {
-                        return Ok(result);
-                    }
-
-                    return new BadRequestObjectResult(Errors.AddErrorToModelState("InvalidUser", "Authentication failed!", ModelState));
-                }
-                else
-                {
-                    return BadRequest(ModelState);
-                }
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-        #endregion
-
-
         #region Create Role
         [HttpPost]
         public async Task<ActionResult> CreateRole(string roleName)
