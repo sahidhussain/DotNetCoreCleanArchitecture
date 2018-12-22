@@ -547,9 +547,6 @@
         }
       },
       "DotnetCore.Core.DTO/1.0.0": {
-        "dependencies": {
-          "DotnetCore.Core.Utility": "1.0.0"
-        },
         "runtime": {
           "DotnetCore.Core.DTO.dll": {}
         },
@@ -570,6 +567,9 @@
         }
       },
       "DotnetCore.Core.Utility/1.0.0": {
+        "dependencies": {
+          "DotnetCore.Core.DTO": "1.0.0"
+        },
         "runtime": {
           "DotnetCore.Core.Utility.dll": {}
         },

@@ -34,3 +34,7 @@ E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Infrastructure\obj\D
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Infrastructure\obj\Debug\netcoreapp2.1\DotnetCore.Infrastructure.csproj.CopyComplete
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Infrastructure\obj\Debug\netcoreapp2.1\DotnetCore.Infrastructure.dll
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Infrastructure\obj\Debug\netcoreapp2.1\DotnetCore.Infrastructure.pdb
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Infrastructure\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Tokens.dll
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Infrastructure\bin\Debug\netcoreapp2.1\System.IdentityModel.Tokens.Jwt.dll
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Infrastructure\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Tokens.xml
+E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.Infrastructure\bin\Debug\netcoreapp2.1\System.IdentityModel.Tokens.Jwt.xml

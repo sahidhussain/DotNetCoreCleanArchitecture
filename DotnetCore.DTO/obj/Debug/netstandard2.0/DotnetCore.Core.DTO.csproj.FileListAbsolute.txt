@@ -1,11 +1,3 @@
-E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.DTO\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.deps.json
-E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.DTO\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.dll
-E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.DTO\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.pdb
-E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.csproj.CoreCompileInputs.cache
-E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.AssemblyInfoInputs.cache
-E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.AssemblyInfo.cs
-E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.dll
-E:\ARCHITECTURE\2018\DotnetCoreArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.pdb
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.deps.json
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.dll
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\bin\Debug\netstandard2.0\DotnetCore.Core.DTO.pdb
@@ -14,7 +6,3 @@ E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\obj\Debug\netsta
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.AssemblyInfo.cs
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.dll
 E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.pdb
-E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.csprojAssemblyReference.cache
-E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\bin\Debug\netstandard2.0\DotnetCore.Core.Utility.dll
-E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\bin\Debug\netstandard2.0\DotnetCore.Core.Utility.pdb
-E:\ARCHITECTURE\2018\DotNetCoreCleanArchitecture\DotnetCore.DTO\obj\Debug\netstandard2.0\DotnetCore.Core.DTO.csproj.CopyComplete

@@ -1055,9 +1055,22 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "DotnetCore.Core.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DotnetCore.Core.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DotnetCore.Core.DTO.dll": {}
+        }
+      },
       "DotnetCore.Core.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DotnetCore.Core.DTO": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DotnetCore.Core.Utility.dll": {}
         },
@@ -3631,6 +3644,11 @@
         "system.threading.tasks.4.0.11.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "DotnetCore.Core.DTO/1.0.0": {
+      "type": "project",
+      "path": "../DotnetCore.DTO/DotnetCore.Core.DTO.csproj",
+      "msbuildProject": "../DotnetCore.DTO/DotnetCore.Core.DTO.csproj"
     },
     "DotnetCore.Core.Utility/1.0.0": {
       "type": "project",

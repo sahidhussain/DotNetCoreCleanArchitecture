@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using DotnetCore.Core.DomainServices.IData;
+using DotnetCore.Core.DTO.ApiResponse;
 using DotnetCore.Core.DTO.DtoUser;
 using DotnetCore.Core.Entity;
 using DotnetCore.Core.Utility;
@@ -15,12 +16,14 @@ namespace DotnetCore.Core.ApplicationServices.ServiceUser
     {
         #region Private
         private readonly IUserRepository _iUserRepo;
+        private readonly IJwtFactory _iJwtFactory;
         #endregion
 
         #region Constructor
-        public UserService(IUserRepository iUserRepo)
+        public UserService(IUserRepository iUserRepo, IJwtFactory iJwtFactory)
         {
             _iUserRepo = iUserRepo;
+            _iJwtFactory = iJwtFactory;
         }
         #endregion
 
@@ -42,6 +45,43 @@ namespace DotnetCore.Core.ApplicationServices.ServiceUser
             {
                 throw ex;
             }
+        }
+        #endregion
+
+        #region User Authentication
+        public Token Authenticate(SignInDto dto)
+        {
+            try
+            {
+                Token _token = new Token();
+
+                AppUsers user = new AppUsers()
+                {
+                    Email = dto.Email,
+                    UserName = dto.Email
+                };
+                SignInResult result = _iUserRepo.Authenticate(user, dto.Password).Result;
+
+                if (result.Succeeded)
+                {
+                    var userInfo = _iUserRepo.GetUserByEmail(dto.Email).Result;
+                    var userRole = _iUserRepo.GetUserInRole(userInfo).Result;
+
+                    CreateTokenDto _dtoToken = new CreateTokenDto()
+                    {
+                        UserId = userInfo.Id,
+                        Email = userInfo.Email,
+                        UserInRole = userRole[0]
+                    };
+                    _token.UserToken = _iJwtFactory.GetJwtToken(_dtoToken);
+                }
+                return _token;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
         }
         #endregion
 

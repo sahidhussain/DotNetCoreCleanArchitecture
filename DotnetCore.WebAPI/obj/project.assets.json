@@ -4648,9 +4648,6 @@
       "DotnetCore.Core.DTO/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "DotnetCore.Core.Utility": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/DotnetCore.Core.DTO.dll": {}
         },
@@ -4675,6 +4672,9 @@
       "DotnetCore.Core.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DotnetCore.Core.DTO": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DotnetCore.Core.Utility.dll": {}
         },

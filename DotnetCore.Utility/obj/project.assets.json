@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "DotnetCore.Core.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DotnetCore.Core.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DotnetCore.Core.DTO.dll": {}
+        }
       }
     }
   },
@@ -171,10 +181,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "DotnetCore.Core.DTO/1.0.0": {
+      "type": "project",
+      "path": "../DotnetCore.DTO/DotnetCore.Core.DTO.csproj",
+      "msbuildProject": "../DotnetCore.DTO/DotnetCore.Core.DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "DotnetCore.Core.DTO >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -207,7 +223,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj": {
+              "projectPath": "E:\\ARCHITECTURE\\2018\\DotNetCoreCleanArchitecture\\DotnetCore.DTO\\DotnetCore.Core.DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

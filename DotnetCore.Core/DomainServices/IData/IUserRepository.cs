@@ -18,6 +18,16 @@ namespace DotnetCore.Core.DomainServices.IData
         Task<IdentityResult> AddRoles(AppRole roleName);
         #endregion
 
+        #region User Authentication
+        Task<SignInResult> Authenticate(AppUsers users, string password);
+        #endregion
 
+        #region Get User By Email
+        Task<AppUsers> GetUserByEmail(string email);
+        #endregion
+
+        #region Get User In Role
+        Task<IList<string>> GetUserInRole(AppUsers users);
+        #endregion
     }
 }
